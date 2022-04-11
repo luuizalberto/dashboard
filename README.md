@@ -7,4 +7,4 @@ Projeto de criação de um dashboard
 
 
 # Layout do Projeto
-![Layout](https://github.com/luuizalberto/assets/blob/main/images/layout%20mobile%20React%20Prime.png)
+![Layout](https://github.com/luuizalberto/assets/blob/main/images/dashboard.fw.png)
