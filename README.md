@@ -1,5 +1,5 @@
 # dashboard
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/luuizalberto/React-Native-Insider4.0/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/luuizalberto/dashboard/blob/main/LICENSE)
 
 # Sobre o projeto
 Projeto de criação de um dashboard
