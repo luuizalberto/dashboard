@@ -1,9 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    background-color: #ccc;
+html, body{
+    height: 100%;
+    background-color: #FAF9FC;
 } 
+
+div.sidebar{
+    width: 20%;
+    background-color: #203035;
+    height: 100%;
+}
+
+div.topo{
+    background-color: #26282D;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+div.topo{color: white;}
