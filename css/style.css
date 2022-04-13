@@ -15,6 +15,7 @@ div.sidebar{
     width: 20%;
     background-color: #203035;
     height: 100%;
+    max-width: 300px;
 }
 
 div.topo{
@@ -24,3 +25,19 @@ div.topo{
 }
 
 div.topo{color: white;}
+
+div.menu{
+    padding: 30px;
+}
+
+div.menu ul{list-style-type: none;}
+
+div.menu li{
+    margin-bottom: 20px;
+}
+
+div.menu ul li a{
+    font-size: 18px;
+    color: #717171;
+    text-decoration: none;
+}
