@@ -4,12 +4,17 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    outline: none;
 }
 
 html, body{
     height: 100%;
     background-color: #FAF9FC;
 } 
+
+.clear{
+    clear: both;
+}
 
 /* INICIO SIDEBAR */
 div.sidebar{
@@ -64,4 +69,44 @@ div.menu li:hover a{
     float: left;
     width: calc(100% - 300px);
     height: 100%;
+}
+
+header{
+    background-color: white;
+    padding: 20px 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+.pesquisa-campo{
+    float: right;
+}
+
+.icone-pesquisa{
+    background-color: #D6D6D6;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icone-pesquisa i{
+    position: relative;
+    top: 5px;
+}
+
+.pesquisa-campo form{
+    display: inline-block;
+}
+
+.pesquisa-campo input[type=text]{
+    width: 200px;
+    height: 30px;
+    border-left: 0;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 16px;
 }
