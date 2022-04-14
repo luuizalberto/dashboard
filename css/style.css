@@ -11,11 +11,12 @@ html, body{
     background-color: #FAF9FC;
 } 
 
+/* INICIO SIDEBAR */
 div.sidebar{
-    width: 20%;
     background-color: #2D3035;
     height: 100%;
-    max-width: 300px;
+    width: 300px;
+    float: left;
 }
 
 div.topo{
@@ -52,4 +53,15 @@ div.menu li:hover i{
 div.menu li:hover a{
     transition: 0.5s;
     color: white;
+}
+/* FIM SIDEBAR */
+
+/* 
+    CONTEÚDO PRINCIPAL DO SITE
+*/
+
+.main-content{
+    float: left;
+    width: calc(100% - 300px);
+    height: 100%;
 }
