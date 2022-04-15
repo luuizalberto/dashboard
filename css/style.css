@@ -16,6 +16,7 @@ html, body{
     clear: both;
 }
 
+
 /* INICIO SIDEBAR */
 div.sidebar{
     background-color: #2D3035;
@@ -165,6 +166,7 @@ header{
     float: left;
     border: 2px solid #EBEBEB;
     background-color: WHITE;
+    margin-bottom: 30px;
 }
 
 .panel h2{
