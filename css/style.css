@@ -150,3 +150,33 @@ header{
     color: #A7A7A7;
     margin-top: 8px;
 }
+
+/* CONTEUDO PRINCIPAL */
+
+.content1{
+    float: left;
+    width: 80%;
+    padding: 30px;
+}
+
+.panel{
+    padding: 30px;
+    width: 100%;
+    float: left;
+    border: 2px solid #EBEBEB;
+    background-color: WHITE;
+}
+
+.panel h2{
+    color: #7f7f7f;
+    font-size: 20px;
+    
+    text-transform: uppercase;
+}
+
+.panel p{
+    font-size: 16px;
+    color: #b2b2b2;
+    margin-top: 15px;
+    line-height: 24px;
+}
