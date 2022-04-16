@@ -159,6 +159,8 @@ header{
     float: left;
     width: 80%;
     padding: 30px;
+    overflow: auto;
+    height: calc(100% - 70px);
 }
 
 .panel{
