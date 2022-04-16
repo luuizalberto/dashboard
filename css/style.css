@@ -205,8 +205,20 @@ header{
 }
 
 .atualizacoes-registro{
+    position: relative;
     padding: 15px 10px;
     border-left: 1px solid #bbb;
+}
+
+.circle-atividade{
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #eaebeb;
 }
 
 .atualizacoes-registro h2{
