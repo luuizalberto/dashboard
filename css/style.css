@@ -148,9 +148,9 @@ header{
 
 .nome-usuario h2{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 23px;
     color: #A7A7A7;
-    margin-top: 8px;
+    cursor: pointer;
 }
 
 /* CONTEUDO PRINCIPAL */
@@ -233,4 +233,10 @@ header{
 .atualizacoes-registro p{
     color: #b2b2b2;
     font-size: 12px;
+}
+
+@media screen and (max-width:768px){
+    .ultimas-atualizacoes{display: none;}
+    .content1{width: 100%;}
+    .panel{width: 100% !important;}
 }
