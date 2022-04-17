@@ -239,6 +239,11 @@ header{
     .ultimas-atualizacoes{display: none;}
     .content1{width: 100%;}
     .panel{width: 100% !important;margin-left: 0 !important;}
-    .sidebar{display: none;}
-    .main-content{width: 100%;}
+    .sidebar{display: none;position: relative;z-index: 9999;}
+    .main-content{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
