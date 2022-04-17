@@ -239,4 +239,6 @@ header{
     .ultimas-atualizacoes{display: none;}
     .content1{width: 100%;}
     .panel{width: 100% !important;}
+    .sidebar{display: none;}
+    .main-content{width: 100%;}
 }
